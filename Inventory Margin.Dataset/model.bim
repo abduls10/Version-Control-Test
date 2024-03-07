@@ -4,7 +4,7 @@
     "annotations": [
       {
         "name": "PBIDesktopVersion",
-        "value": "2.126.927.0 (24.02)"
+        "value": "2.126.1261.0 (24.02)"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -5158,7 +5158,9 @@
                 },
                 "State": "Generated",
                 "Terms": [
-                  {},
+                  {
+                    "": {}
+                  },
                   {
                     "location": {
                       "Source": {
@@ -11719,6 +11721,11 @@
             "expression": "[Margin Percent] * [Quantity] / [Quantity]",
             "formatString": "0.00%;-0.00%;0.00%",
             "lineageTag": "c037b08f-d3bf-40bb-88db-1d4846a177b9"
+          },
+          {
+            "name": "Test_Measure",
+            "expression": "\"This is just a test for Version Control\"",
+            "lineageTag": "3c14bfd1-5f3d-46ca-a333-db8f3b17d49c"
           }
         ],
         "partitions": [
