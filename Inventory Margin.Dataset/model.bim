@@ -11724,7 +11724,7 @@
           },
           {
             "name": "Test_Measure",
-            "expression": "\"This is just a test for Version Control\"",
+            "expression": "\"This is just a test\"",
             "lineageTag": "3c14bfd1-5f3d-46ca-a333-db8f3b17d49c"
           }
         ],
